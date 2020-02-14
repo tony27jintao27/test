@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <string.h>
+void main()
+{
+  char s1[10]={'a','b','c','\0','d'};
+  
+  printf(“s1 size=%d\n”,strlen(s1));
+  printf("s1 array size = %d",sizeof(s1));
+}
+
+s1 size = 3
+s1 array size = 10
